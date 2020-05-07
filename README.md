@@ -14,3 +14,9 @@ The current Python implementation captures only IPv4 packets and provides the fo
 - Protocol used (e.g. 6 means its a TCP packet)
 - TTL (Time-to-Live)
 - Header length
+
+## To run:
+In its current state, the program requires a Linux machine and Python3 installed. A packet sniffer shouldn't technically be OS-specific but that work is still in progress. Also, you'll need to use root privileges to run. The command I'm using:
+```bash
+sudo python3 sniffer_2.py
+```
